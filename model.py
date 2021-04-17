@@ -3,11 +3,10 @@ from __future__ import division
 from __future__ import print_function
 
 # Imports
-import tensorflow as tf
 import numpy as np
 import sys
 import time
-from tricks import read_samples # You must add the path contraining tricks.py to PYTHONPATH
+from tricks import * # You must add the path contraining tricks.py to PYTHONPATH
 import argparse
 
 tf.logging.set_verbosity(tf.logging.INFO)
